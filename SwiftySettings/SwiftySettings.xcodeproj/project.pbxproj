@@ -13,6 +13,8 @@
 		E1A3DECC2583FA49009B3BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A3DECB2583FA49009B3BAC /* Preview Assets.xcassets */; };
 		E1A3DED72583FA49009B3BAC /* SwiftySettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DED62583FA49009B3BAC /* SwiftySettingsTests.swift */; };
 		E1A3DEE22583FA49009B3BAC /* SwiftySettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEE12583FA49009B3BAC /* SwiftySettingsUITests.swift */; };
+		E1A3DEF72583FC7F009B3BAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEF62583FC7F009B3BAC /* User.swift */; };
+		E1A3DEFF2583FCE8009B3BAC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		E1A3DEDD2583FA49009B3BAC /* SwiftySettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3DEE12583FA49009B3BAC /* SwiftySettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySettingsUITests.swift; sourceTree = "<group>"; };
 		E1A3DEE32583FA49009B3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A3DEF62583FC7F009B3BAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 		E1A3DEC32583FA47009B3BAC /* SwiftySettings */ = {
 			isa = PBXGroup;
 			children = (
+				E1A3DEF52583FC6C009B3BAC /* Model */,
 				E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */,
 				E1A3DEC62583FA47009B3BAC /* SettingsView.swift */,
+				E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */,
 				E1A3DEC82583FA49009B3BAC /* Assets.xcassets */,
 				E1A3DECD2583FA49009B3BAC /* Info.plist */,
 				E1A3DECA2583FA49009B3BAC /* Preview Content */,
@@ -128,6 +134,14 @@
 				E1A3DEE32583FA49009B3BAC /* Info.plist */,
 			);
 			path = SwiftySettingsUITests;
+			sourceTree = "<group>";
+		};
+		E1A3DEF52583FC6C009B3BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1A3DEF62583FC7F009B3BAC /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A3DEFF2583FCE8009B3BAC /* ProfileView.swift in Sources */,
 				E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */,
 				E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */,
+				E1A3DEF72583FC7F009B3BAC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
