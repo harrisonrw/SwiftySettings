@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */; };
-		E1A3DEC72583FA47009B3BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEC62583FA47009B3BAC /* ContentView.swift */; };
+		E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEC62583FA47009B3BAC /* SettingsView.swift */; };
 		E1A3DEC92583FA49009B3BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A3DEC82583FA49009B3BAC /* Assets.xcassets */; };
 		E1A3DECC2583FA49009B3BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A3DECB2583FA49009B3BAC /* Preview Assets.xcassets */; };
 		E1A3DED72583FA49009B3BAC /* SwiftySettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DED62583FA49009B3BAC /* SwiftySettingsTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		E1A3DEC12583FA47009B3BAC /* SwiftySettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySettingsApp.swift; sourceTree = "<group>"; };
-		E1A3DEC62583FA47009B3BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1A3DEC62583FA47009B3BAC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E1A3DEC82583FA49009B3BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A3DECB2583FA49009B3BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1A3DECD2583FA49009B3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */,
-				E1A3DEC62583FA47009B3BAC /* ContentView.swift */,
+				E1A3DEC62583FA47009B3BAC /* SettingsView.swift */,
 				E1A3DEC82583FA49009B3BAC /* Assets.xcassets */,
 				E1A3DECD2583FA49009B3BAC /* Info.plist */,
 				E1A3DECA2583FA49009B3BAC /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A3DEC72583FA47009B3BAC /* ContentView.swift in Sources */,
+				E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */,
 				E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
