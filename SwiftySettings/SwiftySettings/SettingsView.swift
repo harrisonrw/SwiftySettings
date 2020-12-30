@@ -20,6 +20,9 @@ struct SettingsView: View {
                 ProfileView(user: user)
                     .padding()
                 
+                CreditBalanceView(user: user)
+                    .padding()
+                
                 Spacer()
                 
             }

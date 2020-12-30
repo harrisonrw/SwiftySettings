@@ -15,6 +15,7 @@
 		E1A3DEE22583FA49009B3BAC /* SwiftySettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEE12583FA49009B3BAC /* SwiftySettingsUITests.swift */; };
 		E1A3DEF72583FC7F009B3BAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEF62583FC7F009B3BAC /* User.swift */; };
 		E1A3DEFF2583FCE8009B3BAC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */; };
+		E1A3DF072584128D009B3BAC /* CreditBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DF062584128D009B3BAC /* CreditBalanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E1A3DEE32583FA49009B3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A3DEF62583FC7F009B3BAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E1A3DF062584128D009B3BAC /* CreditBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditBalanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */,
 				E1A3DEC62583FA47009B3BAC /* SettingsView.swift */,
 				E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */,
+				E1A3DF062584128D009B3BAC /* CreditBalanceView.swift */,
 				E1A3DEC82583FA49009B3BAC /* Assets.xcassets */,
 				E1A3DECD2583FA49009B3BAC /* Info.plist */,
 				E1A3DECA2583FA49009B3BAC /* Preview Content */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A3DF072584128D009B3BAC /* CreditBalanceView.swift in Sources */,
 				E1A3DEFF2583FCE8009B3BAC /* ProfileView.swift in Sources */,
 				E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */,
 				E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */,
