@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E101C21E259D0A96009CC72A /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101C21D259D0A96009CC72A /* SettingsRow.swift */; };
+		E101C226259D1039009CC72A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101C225259D1039009CC72A /* DetailView.swift */; };
 		E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */; };
 		E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3DEC62583FA47009B3BAC /* SettingsView.swift */; };
 		E1A3DEC92583FA49009B3BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A3DEC82583FA49009B3BAC /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E101C21D259D0A96009CC72A /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		E101C225259D1039009CC72A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E1A3DEC12583FA47009B3BAC /* SwiftySettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3DEC42583FA47009B3BAC /* SwiftySettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySettingsApp.swift; sourceTree = "<group>"; };
 		E1A3DEC62583FA47009B3BAC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				E1A3DEC62583FA47009B3BAC /* SettingsView.swift */,
 				E1A3DEFE2583FCE8009B3BAC /* ProfileView.swift */,
 				E1A3DF062584128D009B3BAC /* CreditBalanceView.swift */,
+				E101C21D259D0A96009CC72A /* SettingsRow.swift */,
+				E101C225259D1039009CC72A /* DetailView.swift */,
 				E1A3DEC82583FA49009B3BAC /* Assets.xcassets */,
 				E1A3DECD2583FA49009B3BAC /* Info.plist */,
 				E1A3DECA2583FA49009B3BAC /* Preview Content */,
@@ -278,6 +284,8 @@
 			files = (
 				E1A3DF072584128D009B3BAC /* CreditBalanceView.swift in Sources */,
 				E1A3DEFF2583FCE8009B3BAC /* ProfileView.swift in Sources */,
+				E101C21E259D0A96009CC72A /* SettingsRow.swift in Sources */,
+				E101C226259D1039009CC72A /* DetailView.swift in Sources */,
 				E1A3DEC72583FA47009B3BAC /* SettingsView.swift in Sources */,
 				E1A3DEC52583FA47009B3BAC /* SwiftySettingsApp.swift in Sources */,
 				E1A3DEF72583FC7F009B3BAC /* User.swift in Sources */,
